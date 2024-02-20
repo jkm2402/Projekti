@@ -1,79 +1,38 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
+Predicting Housing Prices Using Machine Learning
 
-# Project Title
+Summary
+Developing a machine learning model to predict housing prices based on various features such as size, location, and number of bedrooms. This project aims to provide a tool for potential homebuyers and sellers to estimate property values more accurately.
 
-Final project for the Building AI course
+Background
+Buying or selling a house involves many factors, and accurately determining the fair market value is crucial. Existing methods may lack precision or be time-consuming. This project addresses this issue by utilizing machine learning to provide a more accurate and efficient solution.
 
-## Summary
-
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
-
-## Background
-
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+Challenges:
+Inaccurate property valuations
+Time-consuming manual assessments
+Limited accessibility to accurate pricing information
+How is it used?
+Users input property details, such as size, location, and number of bedrooms, into the application. The machine learning model then processes this information and provides an estimated market value for the property. This tool is valuable for real estate agents, homebuyers, and sellers.
 
 
-## How is it used?
+python
+def predict_house_price(features):
+    # Machine learning model prediction goes here
+    return estimated_price
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+Data sources and AI methods
+Data sources may include real estate databases, property listings, and historical sales records. Machine learning algorithms, such as regression models, will be used to analyze the relationships between various features and housing prices.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+Challenges
+This project does not address the following:
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+Economic fluctuations affecting property values
+Unexpected property-specific issues
+Ethical concerns related to biased datasets
+What next?
+The project could expand by incorporating additional features, such as market trends, school ratings, or crime rates, for more accurate predictions. Collaboration with real estate experts and data scientists would enhance the model's capabilities.
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
-
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
-## Challenges
-
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
-
-## What next?
-
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
-
-## Acknowledgments
-
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Acknowledgments
+Inspiration for this project comes from the need for more accurate and efficient property valuation tools in the real estate industry. 
+https://www.akkio.com/post/house-price-prediction-using-machine-learning
+https://www.diva-portal.org/smash/get/diva2:1354741/FULLTEXT01.pdf
+https://www.sciencedirect.com/science/article/pii/S1877050920316318
