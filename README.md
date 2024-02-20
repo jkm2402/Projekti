@@ -1,6 +1,6 @@
 Predicting Housing Prices Using Machine Learning
 
-Summary
+## Summary
 Building AI course project
 Developing a machine learning model to predict housing prices based on various features such as size, location, and number of bedrooms. This project aims to provide a tool for potential homebuyers and sellers to estimate property values more accurately.
 
